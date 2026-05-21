@@ -1,0 +1,60 @@
+body {
+    background-color: #b3bfb8;
+    color: #3c493f;
+}
+
+.completed-text {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.item-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    accent-color: #3c493f;
+}
+
+#itemInput {
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 5px;
+}
+
+#addButton {
+    background-color: #7e8d85;
+    color: aliceblue;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: #3c493f;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+    padding: 5px;
+    margin: 5px;
+}
+
+.delete-btn:hover {
+    color: #083022;
+    transform: scale(1.2);
+}
+
+.delete-btn:active {
+    transform: scale(0.9);
+}
